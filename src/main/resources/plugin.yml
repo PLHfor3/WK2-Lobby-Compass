@@ -1,0 +1,10 @@
+name: 'Week2LobbySelector'
+version: '1.0'
+main: com.gmail.prestonhigg17.LobbySelector
+api-version: '1.18'
+description: 'The Week 2 Lobby Selector because I got fed up with the existing ones'
+load: STARTUP
+author: '_plh'
+website: 'week2.hypixelstats.com'
+softdepend:
+  - DeluxeMenus
