@@ -6,5 +6,5 @@ description: 'The Week 2 Lobby Selector because I got fed up with the existing o
 load: STARTUP
 author: '_plh'
 website: 'week2.hypixelstats.com'
-softdepend:
+depend:
   - DeluxeMenus

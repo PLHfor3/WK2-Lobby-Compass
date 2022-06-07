@@ -11,7 +11,7 @@ public class LobbySelector extends JavaPlugin
         ItemHandler.init();
         getServer().getPluginManager().registerEvents(new ClearInventoryListener(), this);
         getServer().getPluginManager().registerEvents(new SelectorClickEventListener(), this);
-        getServer().getPluginManager().registerEvents(new InventoryMoveSelectorListener(), this);
+        getServer().getPluginManager().registerEvents(new CompassEventListener(), this);
     }
 
     @Override
