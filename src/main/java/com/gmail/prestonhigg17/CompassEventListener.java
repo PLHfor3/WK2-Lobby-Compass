@@ -36,7 +36,6 @@ public class CompassEventListener implements Listener
         try
         {
             Item item = event.getItemDrop();
-            System.out.println(event);
             if (!item.equals(null))
             {
                 if (item.getItemStack().getItemMeta().equals(ItemHandler.compass.getItemMeta()))
@@ -51,12 +50,12 @@ public class CompassEventListener implements Listener
 
     }
 
+    @EventHandler
     public void onPlayerMoveItemListener(InventoryMoveItemEvent event)
     {
         try
         {
             ItemStack item = event.getItem();
-            System.out.println(event);
             if (!item.equals(null))
             {
                 if (item.getItemMeta().equals(ItemHandler.compass.getItemMeta()))
